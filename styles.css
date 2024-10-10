@@ -1,0 +1,98 @@
+/* Estilos para o cabeçalho */
+nav ul li a.active {
+    color: red; /* Ou outra cor que você preferir */
+    font-weight: bold; /* Para destacar o item */
+}
+
+.site-header {
+    background-color: #e2e2e2; /* Define uma cor de fundo, se necessário */
+    color: #fff; /* Define a cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 40px; /* Adiciona algum espaço interno */
+    position: relative; /* Necessário se você quiser posicionar o logotipo de forma absoluta */
+}
+
+.site-header .logo {
+    max-width: 150px; /* Define uma largura máxima para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    position: absolute; /* Permite posicionar a imagem de forma absoluta */
+    top: 20px; /* Ajusta a posição do logotipo */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50px); /* Corrige o alinhamento horizontal */
+}
+
+/* Estilos gerais do body e header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.site-header {
+    background-color: #ffffff;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.partidas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.partida {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 1px rgba(2, 43, 43, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.partida  {
+    margin-top: 0;
+}
+
+.odds {
+    margin: 20px 0;
+}
+
+.odd {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.valor {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.apostar-btn {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apostar-btn:hover {
+    background-color: #0056b3;
+}
+
+.apostar-btn:active {
+    transform: scale(0.98);
+}
+
