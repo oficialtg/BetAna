@@ -12,11 +12,12 @@
     <head></head>
     <body>
 <div class="container">
- <div cass="header">
+ <div class="header">
     <h2>Criar uma conta</h2>
  </div>
+
  <form id="form" class="form">
-    <div class="form-control">
+    <div class="form-control error">
         <label for="username" >Nome de usuário</label>
         <input type="text" id="username" placeholder="Digite seu nome de usuário" />
         <i class="fas fa-circle-exclamation"></i>
@@ -24,7 +25,7 @@
         <small>Erro</small>
 
     </div>
-    <div class="form-control">
+    <div class="form-control error">
         <label for="email">Email</label>
         <input type="text" id="email" placeholder="Digite seu email" />
         <i class="fas fa-circle-exclamation"></i>
@@ -32,7 +33,7 @@
         <small>Erro</small>
 
     </div>
-    <div class="form-control">
+    <div class="form-control success">
         <label for="password-confirmation">Senha</label>
         <input type="text" id="password-confirmation" placeholder="Digite sua senha"/>
         <i class="fas fa-circle-exclamation"></i>
@@ -42,7 +43,7 @@
 
     <div class="form-control">
         <label for="password-confirmation">Confirmação de senha</label>
-        <input type="text" id="password-confirmation" placeholder="Confirme sa senha"/>
+        <input type="text" id="password-confirmation" placeholder="Confirme sua senha"/>
         <i class="fas fa-circle-exclamation"></i>
         <i class="fas fa-check-circle"></i>
         <small>Erro</small>
