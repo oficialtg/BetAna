@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./entrar.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Entrar</title>
+</head>
+<body>
+  <header>
+    <nav>
+        <a class="logo" href="/">BetAna</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+            <li><a href="/cadastro.html">Cadastro</a></li>
+            <li><a href="/navbar.html">Voltar</a></li>
+            <li><a href="/">Projetos</a></li>
+            <li><a href="/">Ajuda</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <div class="container">
+     <div class="header">
+      <h2>Realize seu login</h2>
+      </div>
+
+      <form id="form" class="form">
+
+        <div class="form-control">
+        <label for="username">Usuário</label>
+        <input type="text" id="username" placeholder="Digite seu usuário" />
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Erro</small>
+
+      </div>
+
+        <div class="form-control">
+        <label form="password">Senha</label>
+        <input type="password" id="password" placeholder="Digite sua senha"/>
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Erro</small>
+
+
+        <button type="submit" onclick="logar(); return false">Entrar</button>
+
+
+    </div>
+</form>
+
+      <script
+      src="https://kit.fontawesome.com/f9e19193d6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./entrar.js"></script>
+</body>
+</html>

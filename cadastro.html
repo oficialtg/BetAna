@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./cadastro.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,17 +13,32 @@
     />
 
     </head>
-    <body>
-<div class="container">
- <div class="header">
-    <h2>Criar uma conta</h2>
- </div>
+    <nav>
+      <a class="logo" href="/">BetAna</a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+          <li><a href="/entrar.html">Entrar</a></li>
+          <li><a href="/navbar.html">Voltar</a></li>
+          <li><a href="/">Projetos</a></li>
+          <li><a href="/">Ajuda</a></li>
+      </ul>
+  </nav>
 
- <form id="form" class="form">
-    <div class="form-control">
-        <label for="username">Nome de usuário</label>
-        <input type="text" id="username" placeholder="Digite seu nome de usuário" />
-        <i class="fas fa-circle-exclamation"></i>
+    <body>
+       <div class="container">
+        <div class="header">
+         <h2>Criar uma conta</h2>
+        </div>
+
+      <form id="form" class="form">
+         <div class="form-control">
+          <label for="username">Nome de usuário</label>
+          <input type="text" id="username" placeholder="Digite seu nome de usuário" />
+        <i class="fas fa-exclamation-circle"></i>
         <i class="fas fa-check-circle"></i>
         <small>Erro</small>
 
@@ -31,7 +46,7 @@
     <div class="form-control">
         <label for="email">Email</label>
         <input type="text" id="email" placeholder="Digite seu email" />
-        <i class="fas fa-circle-exclamation"></i>
+        <i class="fas fa-exclamation-circle"></i>
         <i class="fas fa-check-circle"></i>
         <small>Erro</small>
 
@@ -39,7 +54,7 @@
     <div class="form-control">
         <label for="password">Senha</label>
         <input type="password" id="password" placeholder="Digite sua senha"/>
-        <i class="fas fa-circle-exclamation"></i>
+        <i class="fas fa-exclamation-circle"></i>
         <i class="fas fa-check-circle"></i>
         <small>Erro</small>
     </div>
@@ -47,7 +62,7 @@
     <div class="form-control">
         <label for="password-confirmation">Confirmação de senha</label>
         <input type="password" id="password-confirmation" placeholder="Confirme sua senha"/>
-        <i class="fas fa-circle-exclamation"></i>
+        <i class="fas fa-exclamation-circle"></i>
         <i class="fas fa-check-circle"></i>
         <small>Erro</small>
     </div>
@@ -61,6 +76,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="./scripts.js"></script>
+    <script src="./cadastro.js"></script>
     </body>
     </html>
