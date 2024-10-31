@@ -5,7 +5,7 @@ setInterval(function(){
     document.getElementById('radio-' + contador).checked = true;
     contador ++;
 
-    if(contador>4){
+    if(contador > 3){
         contador = 1;
     }
 
